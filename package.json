@@ -1,0 +1,23 @@
+{
+  "name": "snow-2000",
+  "version": "1.0.0",
+  "description": "",
+  "main": "snieg2000.js",
+  "scripts": {
+    "minify": "uglifyjs snow2000.js --compress --mangle --output snow2000.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sedes-dev/snow-2000.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sedes-dev/snow-2000/issues"
+  },
+  "homepage": "https://github.com/sedes-dev/snow-2000#readme",
+  "devDependencies": {
+    "uglify-js": "^3.17.4"
+  }
+}
